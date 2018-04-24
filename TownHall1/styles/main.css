@@ -1,0 +1,185 @@
+/* the styles for the elements */
+body {
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    width: 800px;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: auto;
+	margin-right: auto;
+	border: solid;
+	border-width: : 3px;
+	border-color: #931420; 
+	background-color: #fffded;
+
+}
+
+section{
+	width: 525px;
+	float: right;
+	padding-right: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+}
+
+aside{
+	width: 215px;
+}
+
+html{
+	background-color: white;
+}
+
+/* the styles for the header */
+header img {
+	float: left;
+	padding-right: 30px;
+	padding-left: 30px;
+}
+
+header h2{
+	font-size: 170%;
+	color: #800000;
+	
+}
+
+header h3{
+	font-size: 130%;
+	font-style: italic;
+	
+}
+
+header{
+	border-bottom: 3px solid #931420;
+	padding-top: 1.5em;
+	padding-bottom: 2em;
+	background: linear-gradient(30deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80% , #f6bb73 100%); ;
+}
+
+/* the styles for the section */
+aside h1{
+	clear: left;
+	font-size: 150%;
+	padding-top: 5px;
+	padding-left: 2px;
+	padding-bottom: 5px;
+	padding-right: 2px;
+	border: 3px double #931420;
+	border-radius: 10px;
+	box-shadow: 5px 10px;
+}
+
+.shadow{
+	color: #800000;
+}
+
+aside {
+	padding-left: 20px;
+	padding-bottom: 20px;
+
+}
+
+section h2{
+	font-size: 130%;
+	color: #800000;
+	padding-top: 0.5px;
+	padding-bottom: 0.25px;
+}
+
+aside h3{
+	font-size: 105%;
+	padding-bottom: 0.25em;
+}
+
+aside img{
+	padding-bottom: 1em;
+}
+
+section p {
+	padding-bottom: 0.5px;
+
+}
+section blockquote{
+	padding-left: 2em;
+	padding-right: 2em;
+	font-style: italic;
+}
+
+section ul{
+
+	padding-bottom: 0.25em;
+	padding-left: 1.25em;
+}
+
+section li{
+	padding-bottom: 0.35em;
+}
+
+a:hover {
+	background-color: yellow;
+}
+
+
+#nav_menu{
+
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	position: relative;
+
+}
+
+
+#nav_menu li{
+	float: left;
+}
+
+#nav_menu li a{
+	display: block;
+	width: 160px;
+	text-align: center;
+	padding: 1em 0 1em 0;
+	text-decoration: none;
+	background-color: #800000;
+	color: white;
+	font-weight: bold;
+
+}
+
+#nav_menu .current {
+	color: yellow;
+
+}
+
+#nav_menu li ul {
+	list-style-type: none;
+	position: absolute;
+	top: 100%;
+}
+
+#nav_menu::after {
+	display: inline-block;
+	float: clear;
+}
+
+hr{
+	border: 2px solid #800000;
+
+}
+
+#tickets li{
+	list-style-type: circle;
+}
+
+/* the styles for the footer */
+footer{
+	background-color: #931420; 
+	clear: both;
+}
+footer p{
+	text-align: center;
+	color: white;
+	padding-top: 1em;
+	padding-bottom: 1em;
+
+}
